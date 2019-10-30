@@ -1,7 +1,7 @@
 .bn-breaking-news {
     display: block;
     width: 100%;
-    border: solid 1px #ce2525;
+    border: solid 1px #45B2D6;
     background: #FFF;
     height: 40px;
     box-sizing: border-box;
@@ -49,7 +49,7 @@
     bottom: 0;
     height: 100%;
     position: absolute;
-    background-color: #ce2525;
+    background-color: #45B2D6;
     text-align: center;
     color: #FFF;
     font-weight: 700;

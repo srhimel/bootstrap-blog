@@ -101,7 +101,96 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     }
 }
 
+.card {
+    border: none;
+    box-shadow: 0 0 5px 1px #d4d6d5;
+    margin-top: 30px;
+    border-bottom: 13px solid #fff
+}
+
+.airtel .card-header,
+.airtel ::-webkit-scrollbar-thumb {
+    background: #EC4520;
+}
+
+.grameenphone .card-header,
+.grameenphone ::-webkit-scrollbar-thumb {
+    background: #3FB4EC;
+}
+
+.banglalink ::-webkit-scrollbar-thumb,
+.banglalink .card-header {
+
+    background: #E7731F;
+}
+
+.teletalk ::-webkit-scrollbar-thumb,
+.teletalk .card-header {
+
+    background: #71C73D;
+}
+
+.robi ::-webkit-scrollbar-thumb,
+.robi .card-header {
+
+    background: #E94200;
+}
+
+.skitto ::-webkit-scrollbar-thumb,
+.skitto .card-header {
+
+    background: #E4539D;
+}
+
+.card-header {
+    border: none;
+    padding: 8px 8px;
+    color: #fff;
+}
+
+.card-body a {
+    color: #000;
+}
+
+.card-body .i-meta {
+    font-size: 14px;
+    color: #999;
+}
+
 .card-body {
+    padding: 10px 0;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.card-body article {
+    padding: 0 10px;
+}
+
+.card-header .ml-auto a {
+    display: inline-block;
+    margin-top: 4px;
+    color: #fff;
+    font-size: 14px;
+
+    text-decoration: none;
+}
+
+.card-header .m-left span {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.card-header .m-left img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.card-header .ml-auto a .card-body {
     max-height: 400px;
     overflow-y: scroll;
 }
