@@ -77,12 +77,7 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     color: #45B2D6 !important;
 }
 
-@media (max-width: 768px) {
 
-    .big-nav li a {
-        margin: 6px 0;
-    }
-}
 
 /* Highlight area */
 .section-highlight-area {
@@ -109,7 +104,7 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     left: 0;
 }
 
-.highlight-area .col-md-8 .image-box p {
+.highlight-area .col-md-8 .image-box h2 {
     font-size: 30px;
 }
 
@@ -121,7 +116,7 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     left: 10px;
     margin-right: 10px;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -264,4 +259,23 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
 .skitto .card-header {
 
     background: #E4539D;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .big-nav li a {
+        margin: 6px 0;
+    }
+
+    .highlight-area .col-md-8 .image-box h2 {
+        font-size: 18px;
+    }
+
 }
