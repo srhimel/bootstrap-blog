@@ -85,6 +85,9 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
 }
 
 /* Highlight area */
+.section-highlight-area {
+    padding-bottom: 15px;
+}
 
 .highlight-area .image-box {
     position: relative;
@@ -203,7 +206,7 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
 
 .card-body {
     padding: 10px 0;
-    height: 400px;
+    max-height: 400px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
