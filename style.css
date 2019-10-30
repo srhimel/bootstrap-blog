@@ -58,6 +58,8 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
 
 .highlight-area .image-box {
     position: relative;
+
+    box-shadow: 0 0 5px 1px #d4d6d5;
 }
 
 .highlight-area .image-box .overlay {
@@ -78,6 +80,7 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     font-size: 30px;
 }
 
+
 .highlight-area .image-box p {
     position: absolute;
     bottom: 10px;
@@ -85,6 +88,7 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     margin-right: 10px;
     color: #fff;
     font-size: 20px;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -220,4 +224,11 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #45B2D6;
+}
+
+.carousel-caption {
+    right: 5%;
+    bottom: 30px;
+    left: 5%;
+    width: 90%;
 }
