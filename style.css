@@ -26,6 +26,33 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
 */
 
 /* Reset CSS */
+.btn-custom {
+    color: #fff;
+    background: #45B2D6;
+    border-radius: 0;
+    width: 100%;
+}
+
+.btn-custom:hover {
+
+    background: rgb(82, 203, 243);
+    color: #fff;
+}
+
+a {
+    color: #45B2D6;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #45B2D6 !important;
+}
+
+input::placeholder {
+    font-size: 12px;
+    color: #999;
+}
 
 .bg-custom {
     background: #F0F0F0;
@@ -210,7 +237,7 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     color: #000;
 }
 
-.card-body .i-meta {
+.i-meta {
     font-size: 14px;
     color: #999;
 }
@@ -261,12 +288,75 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
     background: #E4539D;
 }
 
+/* section-posts */
+
+.section-posts {
+    padding: 30px 0;
+}
+
+.post-section {
+    padding-bottom: 30px;
+}
+
+.posts {
+    margin-bottom: 15px;
+}
 
 
+.header>span:before {
+    content: ' ';
+    width: 4px;
+    height: 24px;
+    float: left;
+    margin-top: 4px;
+    background: #45B2D6;
+}
 
+.header {
+    margin-bottom: 16px;
+    color: #4a4a4a;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-right: 24px;
+}
 
+.header>span {
+    color: #4a4a4a;
+    text-decoration: none;
+    margin-left: 10px;
+}
 
+/* Side bar*/
+.sidebar-elemant {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 30px;
+    padding: 30px;
+}
 
+.categories .cat-nav ul li a {
+    color: #4a4a4a;
+    width: 90%;
+    display: inline-block;
+    float: left;
+}
+
+.popular-posts .post-nav ul li {
+    border-bottom: 1px dashed #999;
+}
+
+.popular-posts .post-nav ul li a {
+    color: #4a4a4a;
+
+}
+
+.categories .cat-nav ul li a:after {
+    content: " - - - - - - - - - - - - ";
+    display: block;
+    float: right;
+    color: #999;
+}
 
 @media (max-width: 768px) {
 
