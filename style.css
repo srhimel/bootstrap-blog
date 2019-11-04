@@ -26,6 +26,11 @@ WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstr
 */
 
 /* Reset CSS */
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .btn-custom {
     color: #fff;
     background: #45B2D6;
@@ -356,6 +361,22 @@ input::placeholder {
     display: block;
     float: right;
     color: #999;
+}
+
+/* Footer */
+.footer-social li {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.footer-social li a {
+    display: inline-block;
+    margin-top: 3px;
+
 }
 
 @media (max-width: 768px) {
